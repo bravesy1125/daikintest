@@ -1,0 +1,10 @@
+# ninja log v5
+4	372	6969951743221551	CMakeFiles/daikintest_lib_src.dir/daikintest.cpp.obj	54d78542b39fa91
+15	245	6969952987431495	build.ninja	90ba1522148cc565
+97	453	6969944601457608	daikintest_lib_src.dll	1e100564f0e07e3b
+373	430	6969951743756619	daikintest_lib_src.lib	8e1c8ba0fc282cdd
+13	77	6969953007152370	C:/Users/brave/Desktop/daikintest/daikintest_lib_src/daikintest_lib_src.lib	fb1b6dc9f24e0ec3
+9	370	6969960591624194	CMakeFiles/daikintest_lib_src.dir/daikintest.cpp.obj	54d78542b39fa91
+370	429	6969960592189436	C:/Users/brave/Desktop/daikintest/daikintest_lib_src/daikintest_lib_src.lib	fb1b6dc9f24e0ec3
+12	100	6969964389868110	CMakeFiles/daikintest_lib_src.dir/daikintest.cpp.obj	54d78542b39fa91
+101	160	6969964390438855	C:/Users/brave/Desktop/daikintest/daikintest_lib_src/daikintest_lib_src.lib	fb1b6dc9f24e0ec3

@@ -1,0 +1,1 @@
+C:\Users\brave\Desktop\daikintest\gtest-daikintest\gtest-daikintest\x64\Debug\gtest-daikintest.vcxproj.CopyComplete
