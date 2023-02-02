@@ -122,7 +122,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=daikintest_lib_src
+CMAKE_PROJECT_NAME:STATIC=daikintest
 
 //RC compiler
 CMAKE_RC_COMPILER:FILEPATH=C:/Program Files (x86)/Windows Kits/10/bin/10.0.22000.0/x64/rc.exe
@@ -194,6 +194,15 @@ CMAKE_STATIC_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 // during the make.  This is useful for debugging only. With Visual
 // Studio IDE projects all commands are done without /nologo.
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
+
+//Value Computed by CMake
+daikintest_BINARY_DIR:STATIC=C:/Users/brave/Desktop/daikintest/daikintest_lib_src/out/build/x64-debug
+
+//Value Computed by CMake
+daikintest_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+daikintest_SOURCE_DIR:STATIC=C:/Users/brave/Desktop/daikintest/daikintest_lib_src
 
 //Value Computed by CMake
 daikintest_lib_src_BINARY_DIR:STATIC=C:/Users/brave/Desktop/daikintest/daikintest_lib_src/out/build/x64-debug

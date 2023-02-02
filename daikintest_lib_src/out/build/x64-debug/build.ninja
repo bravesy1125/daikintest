@@ -11,7 +11,7 @@
 # =============================================================================
 
 # =============================================================================
-# Project: daikintest_lib_src
+# Project: daikintest
 # Configurations: Debug
 # =============================================================================
 
@@ -41,38 +41,38 @@ include CMakeFiles\rules.ninja
 
 cmake_ninja_workdir = C$:\Users\brave\Desktop\daikintest\daikintest_lib_src\out\build\x64-debug\
 # =============================================================================
-# Object build statements for STATIC_LIBRARY target daikintest_lib_src
+# Object build statements for STATIC_LIBRARY target daikintest
 
 
 #############################################
-# Order-only phony target for daikintest_lib_src
+# Order-only phony target for daikintest
 
-build cmake_object_order_depends_target_daikintest_lib_src: phony || CMakeFiles\daikintest_lib_src.dir
+build cmake_object_order_depends_target_daikintest: phony || CMakeFiles\daikintest.dir
 
-build CMakeFiles\daikintest_lib_src.dir\daikintest.cpp.obj: CXX_COMPILER__daikintest_lib_src_Debug C$:\Users\brave\Desktop\daikintest\daikintest_lib_src\daikintest.cpp || cmake_object_order_depends_target_daikintest_lib_src
+build CMakeFiles\daikintest.dir\daikintest.cpp.obj: CXX_COMPILER__daikintest_Debug C$:\Users\brave\Desktop\daikintest\daikintest_lib_src\daikintest.cpp || cmake_object_order_depends_target_daikintest
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1
-  OBJECT_DIR = CMakeFiles\daikintest_lib_src.dir
-  OBJECT_FILE_DIR = CMakeFiles\daikintest_lib_src.dir
-  TARGET_COMPILE_PDB = CMakeFiles\daikintest_lib_src.dir\daikintest_lib_src.pdb
-  TARGET_PDB = C:\Users\brave\Desktop\daikintest\daikintest_lib_src\daikintest_lib_src.pdb
+  OBJECT_DIR = CMakeFiles\daikintest.dir
+  OBJECT_FILE_DIR = CMakeFiles\daikintest.dir
+  TARGET_COMPILE_PDB = CMakeFiles\daikintest.dir\daikintest.pdb
+  TARGET_PDB = C:\Users\brave\Desktop\daikintest\daikintest_lib_src\daikintest.pdb
 
 
 # =============================================================================
-# Link build statements for STATIC_LIBRARY target daikintest_lib_src
+# Link build statements for STATIC_LIBRARY target daikintest
 
 
 #############################################
-# Link the static library C:\Users\brave\Desktop\daikintest\daikintest_lib_src\daikintest_lib_src.lib
+# Link the static library C:\Users\brave\Desktop\daikintest\daikintest_lib_src\daikintest.lib
 
-build C$:\Users\brave\Desktop\daikintest\daikintest_lib_src\daikintest_lib_src.lib: CXX_STATIC_LIBRARY_LINKER__daikintest_lib_src_Debug CMakeFiles\daikintest_lib_src.dir\daikintest.cpp.obj
+build C$:\Users\brave\Desktop\daikintest\daikintest_lib_src\daikintest.lib: CXX_STATIC_LIBRARY_LINKER__daikintest_Debug CMakeFiles\daikintest.dir\daikintest.cpp.obj
   LANGUAGE_COMPILE_FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1
   LINK_FLAGS = /machine:x64
-  OBJECT_DIR = CMakeFiles\daikintest_lib_src.dir
+  OBJECT_DIR = CMakeFiles\daikintest.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\daikintest_lib_src.dir\daikintest_lib_src.pdb
-  TARGET_FILE = C:\Users\brave\Desktop\daikintest\daikintest_lib_src\daikintest_lib_src.lib
-  TARGET_PDB = C:\Users\brave\Desktop\daikintest\daikintest_lib_src\daikintest_lib_src.pdb
+  TARGET_COMPILE_PDB = CMakeFiles\daikintest.dir\daikintest.pdb
+  TARGET_FILE = C:\Users\brave\Desktop\daikintest\daikintest_lib_src\daikintest.lib
+  TARGET_PDB = C:\Users\brave\Desktop\daikintest\daikintest_lib_src\daikintest.pdb
 
 
 #############################################
@@ -100,9 +100,9 @@ build rebuild_cache: phony CMakeFiles\rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build daikintest_lib_src: phony C$:\Users\brave\Desktop\daikintest\daikintest_lib_src\daikintest_lib_src.lib
+build daikintest: phony C$:\Users\brave\Desktop\daikintest\daikintest_lib_src\daikintest.lib
 
-build daikintest_lib_src.lib: phony C$:\Users\brave\Desktop\daikintest\daikintest_lib_src\daikintest_lib_src.lib
+build daikintest.lib: phony C$:\Users\brave\Desktop\daikintest\daikintest_lib_src\daikintest.lib
 
 # =============================================================================
 # Folder targets.
@@ -112,7 +112,7 @@ build daikintest_lib_src.lib: phony C$:\Users\brave\Desktop\daikintest\daikintes
 #############################################
 # Folder: C:/Users/brave/Desktop/daikintest/daikintest_lib_src/out/build/x64-debug
 
-build all: phony C$:\Users\brave\Desktop\daikintest\daikintest_lib_src\daikintest_lib_src.lib
+build all: phony C$:\Users\brave\Desktop\daikintest\daikintest_lib_src\daikintest.lib
 
 # =============================================================================
 # Built-in targets

@@ -4,15 +4,19 @@
 
 #pragma once
 
+class daikintest{
 
+	public:
+		static unsigned char controlling(int temperature);
 
-#ifndef GOOGLETEST_SAMPLES_SAMPLE1_H_
-#define GOOGLETEST_SAMPLES_SAMPLE1_H_
+};
 
-// Returns n! (the factorial of n).  For negative n, n! is defined to be 1.
-int Factorial(int n);
+enum heating_cooling_on
+{
+	all_off = 0,
+	heating_on = 1,
+	cooling_on = 2
+};
 
-// Returns true if and only if n is a prime number.
-bool IsPrime(int n);
-
-#endif  // GOOGLETEST_SAMPLES_SAMPLE1_H_
+#define MIN_T 1000	//10.00 degree
+#define MAX_T 2000	//20.00 degree
