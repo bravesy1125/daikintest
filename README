@@ -1,3 +1,5 @@
+environment: Windows11 + VS2022
+
 daikintest_lib_src：The source code, header file and generated .lib file. This is a VS2022 Cmake project.
 	daikintest.cpp & daikintest.h: implementation of APIs of this test.
 	daikintest.lib: API file which is used by the test cases or is externally called by other callers.
@@ -5,7 +7,7 @@ gtest-daikintest: google test solution folder.
 	daikintest_unittest.cpp: google test cases.
 
 Steps:
-1. open vs2022, click 'open a local folder', then choose 'daikintest'. After editing, click 'Build ALL', afterall 'daikintest_lib_src.lib' is generated.
-2. open vs2022, click 'open a project or solution',  then choose 'gtest-daikintest'. After editing, click 'Start Without Debugging' to run the test, a cmd shell window will show the result of all testing cases.(For this test, 1 fail is shown)
-NOTE: VS2022 supports opening multi instances.
+	1. open vs2022, click 'open a local folder', then choose 'daikintest'. After editing, click 'Build ALL', afterall 'daikintest_lib_src.lib' is generated.
+	2. open vs2022, click 'open a project or solution',  then choose 'gtest-daikintest'. After editing, click 'Start Without Debugging' to run the test, a cmd shell window will show the result of all testing cases.(For this test, 1 fail is shown)
+NOTE: VS2022 supports opening multi instances. 
 
